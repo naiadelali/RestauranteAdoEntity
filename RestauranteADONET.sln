@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Apresentacao", "1- Apresentacao", "{CC3B4584-A87C-4627-8C4E-B203ABFA65A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{C52DA0DB-A1DC-457E-8EF7-72FF2EC5A3F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{E06DC0DA-C76D-44AB-8D7E-4679C9B58EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteADONET.Infra.DAO", "RestauranteADONET.Infra.DAO\RestauranteADONET.Infra.DAO.csproj", "{337E89E7-1339-4568-895E-02A06FBE93F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteADONET.Dominio.Business", "RestauranteADONET.Dominio.Business\RestauranteADONET.Dominio.Business.csproj", "{7FCC721B-BE23-456B-B56B-20BC127D571B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteADONET.Dominio.Model", "RestauranteADONET.Dominio.Model\RestauranteADONET.Dominio.Model.csproj", "{80AB0256-22EC-44D1-AE08-B1A6B8B501BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteADONET.apresentacao.site", "RestauranteADONET.apresentacao.site\RestauranteADONET.apresentacao.site.csproj", "{6FE9139E-3689-4A77-9ADE-25AF13928099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteADONET.EntityFramework", "RestauranteADONET.EntityFramework\RestauranteADONET.EntityFramework.csproj", "{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{337E89E7-1339-4568-895E-02A06FBE93F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337E89E7-1339-4568-895E-02A06FBE93F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337E89E7-1339-4568-895E-02A06FBE93F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337E89E7-1339-4568-895E-02A06FBE93F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCC721B-BE23-456B-B56B-20BC127D571B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCC721B-BE23-456B-B56B-20BC127D571B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCC721B-BE23-456B-B56B-20BC127D571B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCC721B-BE23-456B-B56B-20BC127D571B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AB0256-22EC-44D1-AE08-B1A6B8B501BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AB0256-22EC-44D1-AE08-B1A6B8B501BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AB0256-22EC-44D1-AE08-B1A6B8B501BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AB0256-22EC-44D1-AE08-B1A6B8B501BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE9139E-3689-4A77-9ADE-25AF13928099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE9139E-3689-4A77-9ADE-25AF13928099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE9139E-3689-4A77-9ADE-25AF13928099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE9139E-3689-4A77-9ADE-25AF13928099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{337E89E7-1339-4568-895E-02A06FBE93F8} = {E06DC0DA-C76D-44AB-8D7E-4679C9B58EAD}
+		{7FCC721B-BE23-456B-B56B-20BC127D571B} = {C52DA0DB-A1DC-457E-8EF7-72FF2EC5A3F8}
+		{80AB0256-22EC-44D1-AE08-B1A6B8B501BA} = {C52DA0DB-A1DC-457E-8EF7-72FF2EC5A3F8}
+		{6FE9139E-3689-4A77-9ADE-25AF13928099} = {CC3B4584-A87C-4627-8C4E-B203ABFA65A2}
+		{464ABEE7-AA7D-499C-A8E0-E8AB3DBD586B} = {E06DC0DA-C76D-44AB-8D7E-4679C9B58EAD}
+	EndGlobalSection
+EndGlobal
